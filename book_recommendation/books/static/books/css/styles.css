@@ -1,0 +1,33 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#results .book {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#results .book img {
+    max-width: 128px;
+    max-height: 193px;
+}
+
+#results .book h3 {
+    margin: 0;
+}
+
+#results .book p {
+    margin: 5px 0;
+}
+
+#results .book a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+#results .book a:hover {
+    text-decoration: underline;
+}

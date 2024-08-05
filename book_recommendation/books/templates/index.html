@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Recommendation</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'books/css/styles.css' %}">
+    <link rel="icon" type="image/png" href="{% static 'books/images/favicon.ico' %}">
+</head>
+<body>
+    <h1>Welcome to the Book Recommendation System</h1>
+
+    <!-- Search Form -->
+    <form id="search-form">
+    <input type="text" name="q" placeholder="Search for books..." required>
+    <button type="submit">Search</button>
+</form>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations">
+        <h2>Recommended Books</h2>
+        <div id="results"></div>
+    </section>
+
+    <script src="{% static 'books/js/script.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Book Recommendation</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Book Recommendation System</h1>
+        <nav>
+            <ul>
+                <li><a href="{% url 'index' %}">Home</a></li>
+                <li><a href="{% url 'search' %}">Search</a></li>
+                <li><a href="{% url 'recommendation' %}">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Use our API to search for books and get recommendations.</p>
+    </div>
+</body>
+</html>
+
+
+</body>
+</html>
